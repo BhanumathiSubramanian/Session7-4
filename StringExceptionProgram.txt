@@ -1,0 +1,22 @@
+class message
+{
+  public void check()
+  {
+    String name = "Bhanu";
+    char ch[] = name.toCharArray();
+    for(int i=0;i<=4;i++)
+    {
+    
+    System.out.println("The character at " + i + " th location is :" + ch[5]);
+    }
+  }
+  
+}
+class StringExceptionProgram {
+  public static void main(String[] args) {
+    
+    message m = new message();
+    m.check();
+    
+  }
+}
